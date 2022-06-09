@@ -10,9 +10,7 @@ def main():
         else:
             lista.append(nomes)
             print(f'FILA:', end=' ')
-            for s in lista:
-                print(f'{s}', end=' ')
-            print()
+            print(*(lista))
 
 
 if __name__ == "__main__":
