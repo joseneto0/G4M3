@@ -3,8 +3,8 @@
 using namespace std;
 
 int main(void){
-    string n;
-    vector<string> frase;
-    int pos=0;
+    int a, b;
+    cin >> a >> b;
+    cout << a - b << '\n';
     return 0;
 }
