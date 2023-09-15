@@ -1,0 +1,112 @@
+10 10
+agem alce alga anca anui arfe azia babe bago boca
+boro caia caio caju coce cres cume cure damo devo
+digo dosa ergo fere foge fole frio gama goma gomo
+hoje ides impo inca java jaza jazo joga leem leva
+lhos lute maos mare mate mofa momo nana nave nome
+note orle para peca peru poem posa puxa raja rape
+real reto ride riso rita rode roma rufe ruim rumo
+safo selo sete sina soco sofa some sope suar suco
+sugo taca tatu teco teia tita toma topa uniu unta
+urre urss usem usos vaga vide vise viso vivi voos
+100
+agem
+cure
+selo
+voos
+uniu
+leva
+real
+urss
+mofa
+sete
+riso
+selo
+jaza
+coce
+rufe
+lhos
+suar
+impo
+urre
+hoje
+mare
+taca
+coce
+caia
+mare
+unta
+sina
+lhos
+java
+viso
+ride
+jazo
+para
+some
+viso
+orle
+sina
+rufe
+rode
+anca
+nave
+mare
+foge
+tatu
+topa
+topa
+tatu
+jaza
+uniu
+joga
+babe
+ruim
+soco
+sofa
+boca
+raja
+cres
+goma
+vide
+nave
+safo
+soco
+suco
+peru
+foge
+voos
+taca
+frio
+jaza
+vaga
+topa
+soco
+puxa
+ride
+sete
+java
+caia
+note
+lute
+leem
+reto
+sope
+safo
+jazo
+arfe
+ergo
+foge
+jazo
+sope
+ides
+leem
+reto
+agem
+para
+cres
+uniu
+vide
+joga
+usem
+usos
