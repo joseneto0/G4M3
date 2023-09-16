@@ -20,18 +20,10 @@ int main()
 			}
 		}
 		int cont = 1;
-		int linha, coluna;
-		if (n % 2 == 0) {
-			linha = n / 2;
-			coluna = n / 2 - 1;
-		}
-		else {
-			linha = n / 2;
-			coluna = n / 2;
-		}
+		int linha=n/2, coluna=n/2;
+		if (n % 2 == 0) coluna--;
 		int ind = 1;
 		int colunaA = coluna, linhaA = linha;
-
 		while (true)
 		{
 			if (cont >= n*n){
@@ -40,6 +32,7 @@ int main()
 			for (int i = colunaA; i <= coluna+ind; i++){
 				matriz[linhaA][i] = cont;
 				cont++;
+				if (cont-1 == n*n) break;
 				colunaA = i;
 			}
 			cont--;
@@ -49,15 +42,18 @@ int main()
 			for (int i = linhaA; i >= linha-ind; i--){
 				matriz[i][colunaA] = cont;
 				cont++;
+				if (cont-1 == n*n) break;
 				linhaA = i;
 			}
 			cont--;
 			if (cont >= n*n){
 				break;
 			}
+			
 			for (int i = colunaA; i >= coluna-ind; i--){
 				matriz[linhaA][i] = cont;
 				cont++;
+				if (cont-1 == n*n) break;
 				colunaA = i;
 			}
 			cont--;
@@ -67,6 +63,7 @@ int main()
 			for (int i = linhaA; i <= linha+ind; i++){
 				matriz[i][colunaA] = cont;
 				cont++;
+			 	if (cont-1 == n*n) break;
 				linhaA = i;
 			}
 			cont--;
@@ -79,7 +76,6 @@ int main()
 
 		for (int i = 0; i < n; i++)
 		{
-
 			for (int j = 0; j < n; j++)
 			{
 				cout << matriz[i][j] << ' ';
