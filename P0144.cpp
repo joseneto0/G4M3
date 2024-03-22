@@ -26,26 +26,16 @@ const ll LINF = 0x3f3f3f3f3f3f3f3fll;
 int main(){
     clock_t start_time = clock();
     ios;
-    int n, m;
-    cin >> n >> m;
-    string a[10005], s;
-    a[n] = string(21, 'z');
+    int n, q;
+    cin >> n >> q;
+    vector<int> a(n);
     for (int i = 0; i < n; i++){
         cin >> a[i];
-        for(int j = 0; j < m-1; j++){
-            cin >> s;
-        }
     }
-    int q;
-    cin >> q;
+    int l, r, x;
     for (int i = 0; i < q; i++){
-        cin >> s;
-        bug(*lower_bound(a, a + n + 1 , s))
-        auto t = lower_bound(a, a + n + 1 , s) - a;
-        if (a[t] == s){
-            t++;
-        }
-        esac(t);
+        cin >> l >> r >> x;
+
     }
     double total_time = (double)(clock() - start_time) / CLOCKS_PER_SEC;
 	bugL(); bug(total_time);
